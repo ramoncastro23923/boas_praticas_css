@@ -1,0 +1,20 @@
+{
+  "name": "tarefa-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:base": "sass smacss/base.css smacss/base.scss --source-map",
+    "sass:layout": "sass smacss/layout.css smacss/layout.scss --source-map",
+    "sass:modules": "sass smacss/modules.css smacss/modules.scss --source-map",
+    "sass:state": "sass smacss/state.css smacss/state.scss --source-map",
+    "sass": "npm-run-all sass:*"
+  },
+  "keywords": [],
+  "author": "Ramon",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.77.1"
+  }
+}
